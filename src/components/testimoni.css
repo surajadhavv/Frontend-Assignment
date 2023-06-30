@@ -1,0 +1,22 @@
+#testimoni .splide__slide.is-active {
+	@apply shadow-[0px_16px_40px_0px_rgba(154,148,148,0.25)];
+}
+#testimoni .splide__slide {
+	@apply my-16;
+}
+
+#testimoni .pagination {
+	@apply absolute left-1/2 -translate-x-1/2 bottom-1 flex gap-6 h-[10px];
+}
+
+#revtestimoniiew .pagination > li {
+	@apply flex justify-center items-center;
+}
+
+#testimoni .pagination-page {
+	@apply rounded-full w-[15px] h-[15px] bg-[#EEEEEE] transition-colors duration-300;
+}
+
+#testimoni .pagination-page.is-active {
+	@apply bg-[#7A3199];
+}
